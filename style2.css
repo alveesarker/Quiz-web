@@ -91,12 +91,12 @@
 }
 
 .btnSection .nextButton{
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     border: none;
     outline: none;
     background-color: #f8a725;
-    border-radius: 10px;
+    border-radius: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -121,11 +121,11 @@
 }
 .homePage{
     width: 100%;
-    height: 40px;
+    height: 50px;
     border: none;
     outline: none;
     background-color: #f8a725;
-    border-radius: 10px;
+    border-radius: 50px;
     font-family: 'Josefin Sans', sans-serif;
     
 }

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+
+}
+
+.qnasec{
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .text{
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.header .timing{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f8a725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .timing p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.question{
+    width: 100%;
+    margin-top: 50px;
+}
+.question h2{
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.options{
+    margin-top: 30px;
+    width: 100%;
+    
+}
+/* 
+ */
+.options .option{
+    height: 60px;
+    width: 100%;
+    background-color: #f8a72535;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #f8a725;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btnSection{
+    width: 100%;
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSection .nextButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f8a725;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btnSection .nextButton:hover{
+    background-color: #cbcbcb;
+    transition: all 0.2s ease;
+}
+.btnSection .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(240, 240, 240) ;
+}
+.buttonHome{
+    width: 100%;
+    margin-top: 50px;
+}
+.homePage{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f8a725;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.homePage:hover{
+    background-color: #cbcbcb;
+    transition: all 0.2s ease;
+}
+
+
+
+@media (max-width:415px) {
+    .qnasec{
+        width: 380px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .qnasec{
+        width: 365px;
+    }
+}
+
+
+@media (max-width:380px) {
+    .qnasec{
+        width: 355px;
+    }
+}
+
+@media (max-width:367px) {
+    .qnasec{
+        width: 340px;
+    }
+}

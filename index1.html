@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="rulesBox">
+        <div class="rulesTitle">Rules for the Quiz</div>
+        <div class="rulesList">
+            <ol style="padding-left: 10px;">
+                <li>There is a 15-second time limit for each question.</li>
+                <li>Once you select an answer, it cannot be undone.</li>
+                <li>You cannot select an option once the time has elapsed.</li>
+                <li>While actively participating in the quiz, exiting is not allowed.</li>
+                <li>You will receive points based on the accuracy of your answers.</li>
+            </ol>
+        </div>
+        <div class="btns">
+            <button onclick="goBack()">Exit Quiz</button>
+            <button onclick="goToNextP()">Continue</button>
+        </div>
+    </div>
+    
+    <script>
+        function goBack(){
+            window.location.href = "index.html";
+        }
+
+        function goToNextP(){
+            window.location.href = "index2.html";
+        }
+    </script>
+
+</body>
+</html>

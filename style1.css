@@ -1,0 +1,91 @@
+/* this style css for the 2nd page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+
+}
+
+.rulesBox{
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+}
+
+.rulesTitle{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+.rulesList{
+    margin-top: 100px;
+}
+
+.rulesList li{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+}
+
+.btns{
+    width: 100%;
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f8a725;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btns button:hover{
+    background-color: #cbcbcb;
+    transition: all 0.2s ease;
+}
+
+
+
+
+@media (max-width:415px) {
+    .rulesBox{
+        width: 380px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .rulesBox{
+        width: 365px;
+    }
+}
+
+
+@media (max-width:380px) {
+    .rulesBox{
+        width: 355px;
+    }
+}
+
+@media (max-width:367px) {
+    .rulesBox{
+        width: 340px;
+    }
+}

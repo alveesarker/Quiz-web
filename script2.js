@@ -49,7 +49,7 @@ function goToNextP(){
     let forNumCont = document.createElement('p');
     timing.appendChild(forNumCont);
     forNumCont.id = 'countTiming' 
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -191,7 +191,7 @@ function goToNextQuiz(){
     let newp = document.createElement('p');
     timing.appendChild(newp);
     newp.id = 'cuntTiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -332,7 +332,7 @@ function goToNextQuiz1(){
     let newpt = document.createElement('p');
     timing.appendChild(newpt);
     newpt.id = 'cunttiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -475,7 +475,7 @@ function goToNextQuiz2(){
     let newptt = document.createElement('p');
     timing.appendChild(newptt);
     newptt.id = 'conttiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -616,7 +616,7 @@ function goToNextQuiz3(){
     let newpttt = document.createElement('p');
     timing.appendChild(newpttt);
     newpttt.id = 'contTiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -759,7 +759,7 @@ function goToNextQuiz4(){
     let newPttt = document.createElement('p');
     timing.appendChild(newPttt);
     newPttt.id = 'ContTiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -901,7 +901,7 @@ function goToNextQuiz5(){
     let newPttT = document.createElement('p');
     timing.appendChild(newPttT);
     newPttT.id = 'COntTiming';
-    let numCount = 21;
+    let numCount = 26;
 
     function lessNum(){
         numCount--;
@@ -1041,7 +1041,7 @@ function goToNextQuiz6(){
     let nEwPttT = document.createElement('p');
     timing.appendChild(nEwPttT);
     nEwPttT.id = 'CONtTiming';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -1181,7 +1181,7 @@ function goToNextQuiz7(){
     let nEWPttT = document.createElement('p');
     timing.appendChild(nEWPttT);
     nEWPttT.id = 'CONtTiMing';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -1321,7 +1321,7 @@ function goToNextQuiz8(){
     let nEWPTtT = document.createElement('p');
     timing.appendChild(nEWPTtT);
     nEWPTtT.id = 'CONtTiMiNg';
-    let numCount = 16;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;

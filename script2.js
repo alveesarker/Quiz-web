@@ -6,7 +6,6 @@ let timing = document.querySelector('.timing');
 let htheoption = document.querySelector('#htheoption');
 
 
-
 // function for quiz 1
 
 function goToNextP(){
@@ -91,11 +90,17 @@ function nextQpage() {
 function colorChange1_1(){
     TotalMarks();
     let falseResult1_1 = document.getElementById('opt1');
+    let falseResult1_2 = document.getElementById('opt2');
+    let falseResult1_3 = document.getElementById('opt3');
+    let falseResult1_4 = document.getElementById('opt4');
+
+    falseResult1_1.removeEventListener("click", colorChange1_1);
+    falseResult1_2.removeEventListener("click", colorChange1_2);
+    falseResult1_3.removeEventListener("click", colorChange1_3);
+    falseResult1_4.removeEventListener("click", colorChange1_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz();
-    },500)
 }
 
 function colorChange1_2(){
@@ -103,12 +108,19 @@ function colorChange1_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opt1');
     let falseResult1_2 = document.getElementById('opt2');
+    let falseResult1_3 = document.getElementById('opt3');
+    let falseResult1_4 = document.getElementById('opt4');
+
+    falseResult1_1.removeEventListener("click", colorChange1_1);
+    falseResult1_2.removeEventListener("click", colorChange1_2);
+    falseResult1_3.removeEventListener("click", colorChange1_3);
+    falseResult1_4.removeEventListener("click", colorChange1_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz();
-    },500)
+    
 }
 
 function colorChange1_3(){
@@ -116,12 +128,19 @@ function colorChange1_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opt1');
+    let falseResult1_2 = document.getElementById('opt2');
     let falseResult1_3 = document.getElementById('opt3');
+    let falseResult1_4 = document.getElementById('opt4');
+
+    falseResult1_1.removeEventListener("click", colorChange1_1);
+    falseResult1_2.removeEventListener("click", colorChange1_2);
+    falseResult1_3.removeEventListener("click", colorChange1_3);
+    falseResult1_4.removeEventListener("click", colorChange1_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz();
-    },500)
+    
 }
 
 function colorChange1_4(){
@@ -129,12 +148,19 @@ function colorChange1_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opt1');
+    let falseResult1_2 = document.getElementById('opt2');
+    let falseResult1_3 = document.getElementById('opt3');
     let falseResult1_4 = document.getElementById('opt4');
+
+    falseResult1_1.removeEventListener("click", colorChange1_1);
+    falseResult1_2.removeEventListener("click", colorChange1_2);
+    falseResult1_3.removeEventListener("click", colorChange1_3);
+    falseResult1_4.removeEventListener("click", colorChange1_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz();
-    },500)
+    
 }
 
 //function for quiz2
@@ -233,11 +259,17 @@ function colorChange2_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('optt1');
+    let falseResult1_2 = document.getElementById('optt2');
+    let falseResult1_3 = document.getElementById('optt3');
+    let falseResult1_4 = document.getElementById('optt4');
+
+    falseResult1_1.removeEventListener("click", colorChange2_1);
+    falseResult1_2.removeEventListener("click", colorChange2_2);
+    falseResult1_3.removeEventListener("click", colorChange2_3);
+    falseResult1_4.removeEventListener("click", colorChange2_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz1();
-    },500)
 }
 
 function colorChange2_2(){
@@ -245,12 +277,18 @@ function colorChange2_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('optt1');
     let falseResult1_2 = document.getElementById('optt2');
+    let falseResult1_3 = document.getElementById('optt3');
+    let falseResult1_4 = document.getElementById('optt4');
+
+    falseResult1_1.removeEventListener("click", colorChange2_1);
+    falseResult1_2.removeEventListener("click", colorChange2_2);
+    falseResult1_3.removeEventListener("click", colorChange2_3);
+    falseResult1_4.removeEventListener("click", colorChange2_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz1();
-    },500)
 }
 
 function colorChange2_3(){
@@ -258,22 +296,34 @@ function colorChange2_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('optt1');
+    let falseResult1_2 = document.getElementById('optt2');
     let falseResult1_3 = document.getElementById('optt3');
+    let falseResult1_4 = document.getElementById('optt4');
+
+    falseResult1_1.removeEventListener("click", colorChange2_1);
+    falseResult1_2.removeEventListener("click", colorChange2_2);
+    falseResult1_3.removeEventListener("click", colorChange2_3);
+    falseResult1_4.removeEventListener("click", colorChange2_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz1();
-    },500)
 }
 
 function colorChange2_4(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('optt1');
+    let falseResult1_2 = document.getElementById('optt2');
+    let falseResult1_3 = document.getElementById('optt3');
     let falseResult1_4 = document.getElementById('optt4');
+
+    falseResult1_1.removeEventListener("click", colorChange2_1);
+    falseResult1_2.removeEventListener("click", colorChange2_2);
+    falseResult1_3.removeEventListener("click", colorChange2_3);
+    falseResult1_4.removeEventListener("click", colorChange2_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz1();
-    },500)
 }
 
 //function for quiz 3
@@ -376,11 +426,17 @@ function colorChange3_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('opttt1');
+    let falseResult1_2 = document.getElementById('opttt2');
+    let falseResult1_3 = document.getElementById('opttt3');
+    let falseResult1_4 = document.getElementById('opttt4');
+
+    falseResult1_1.removeEventListener("click", colorChange3_1);
+    falseResult1_2.removeEventListener("click", colorChange3_2);
+    falseResult1_3.removeEventListener("click", colorChange3_3);
+    falseResult1_4.removeEventListener("click", colorChange3_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz2();
-    },500)
 }
 
 function colorChange3_2(){
@@ -388,22 +444,34 @@ function colorChange3_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opttt1');
     let falseResult1_2 = document.getElementById('opttt2');
+    let falseResult1_3 = document.getElementById('opttt3');
+    let falseResult1_4 = document.getElementById('opttt4');
+
+    falseResult1_1.removeEventListener("click", colorChange3_1);
+    falseResult1_2.removeEventListener("click", colorChange3_2);
+    falseResult1_3.removeEventListener("click", colorChange3_3);
+    falseResult1_4.removeEventListener("click", colorChange3_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz2();
-    },500)
 }
 
 function colorChange3_3(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('opttt1');
+    let falseResult1_2 = document.getElementById('opttt2');
     let falseResult1_3 = document.getElementById('opttt3');
+    let falseResult1_4 = document.getElementById('opttt4');
+
+    falseResult1_1.removeEventListener("click", colorChange3_1);
+    falseResult1_2.removeEventListener("click", colorChange3_2);
+    falseResult1_3.removeEventListener("click", colorChange3_3);
+    falseResult1_4.removeEventListener("click", colorChange3_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz2();
-    },500)
 }
 
 function colorChange3_4(){
@@ -411,12 +479,18 @@ function colorChange3_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opttt1');
+    let falseResult1_2 = document.getElementById('opttt2');
+    let falseResult1_3 = document.getElementById('opttt3');
     let falseResult1_4 = document.getElementById('opttt4');
+
+    falseResult1_1.removeEventListener("click", colorChange3_1);
+    falseResult1_2.removeEventListener("click", colorChange3_2);
+    falseResult1_3.removeEventListener("click", colorChange3_3);
+    falseResult1_4.removeEventListener("click", colorChange3_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz2();
-    },500)
 }
 
 //function for quiz 4
@@ -517,21 +591,33 @@ function colorChange4_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('opttT1');
+    let falseResult1_2 = document.getElementById('opttT2');
+    let falseResult1_3 = document.getElementById('opttT3');
+    let falseResult1_4 = document.getElementById('opttT4');
+
+    falseResult1_1.removeEventListener("click", colorChange4_1);
+    falseResult1_2.removeEventListener("click", colorChange4_2);
+    falseResult1_3.removeEventListener("click", colorChange4_3);
+    falseResult1_4.removeEventListener("click", colorChange4_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz3();
-    },500)
 }
 
 function colorChange4_2(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('opttT1');
     let falseResult1_2 = document.getElementById('opttT2');
+    let falseResult1_3 = document.getElementById('opttT3');
+    let falseResult1_4 = document.getElementById('opttT4');
+
+    falseResult1_1.removeEventListener("click", colorChange4_1);
+    falseResult1_2.removeEventListener("click", colorChange4_2);
+    falseResult1_3.removeEventListener("click", colorChange4_3);
+    falseResult1_4.removeEventListener("click", colorChange4_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz3();
-    },500)
 }
 
 function colorChange4_3(){
@@ -539,12 +625,18 @@ function colorChange4_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opttT1');
+    let falseResult1_2 = document.getElementById('opttT2');
     let falseResult1_3 = document.getElementById('opttT3');
+    let falseResult1_4 = document.getElementById('opttT4');
+
+    falseResult1_1.removeEventListener("click", colorChange4_1);
+    falseResult1_2.removeEventListener("click", colorChange4_2);
+    falseResult1_3.removeEventListener("click", colorChange4_3);
+    falseResult1_4.removeEventListener("click", colorChange4_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz3();
-    },500)
 }
 
 function colorChange4_4(){
@@ -552,12 +644,18 @@ function colorChange4_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opttT1');
+    let falseResult1_2 = document.getElementById('opttT2');
+    let falseResult1_3 = document.getElementById('opttT3');
     let falseResult1_4 = document.getElementById('opttT4');
+
+    falseResult1_1.removeEventListener("click", colorChange4_1);
+    falseResult1_2.removeEventListener("click", colorChange4_2);
+    falseResult1_3.removeEventListener("click", colorChange4_3);
+    falseResult1_4.removeEventListener("click", colorChange4_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz3();
-    },500)
 }
 
 //function for quiz 5
@@ -657,11 +755,17 @@ function nextQpage4() {
 function colorChange5_1(){
     TotalMarks();
     let falseResult1_1 = document.getElementById('optTT1');
+    let falseResult1_2 = document.getElementById('optTT2');
+    let falseResult1_3 = document.getElementById('optTT3');
+    let falseResult1_4 = document.getElementById('optTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange5_1);
+    falseResult1_2.removeEventListener("click", colorChange5_2);
+    falseResult1_3.removeEventListener("click", colorChange5_3);
+    falseResult1_4.removeEventListener("click", colorChange5_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz4();
-    },500)
 }
 
 function colorChange5_2(){
@@ -669,12 +773,18 @@ function colorChange5_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('optTT1');
     let falseResult1_2 = document.getElementById('optTT2');
+    let falseResult1_3 = document.getElementById('optTT3');
+    let falseResult1_4 = document.getElementById('optTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange5_1);
+    falseResult1_2.removeEventListener("click", colorChange5_2);
+    falseResult1_3.removeEventListener("click", colorChange5_3);
+    falseResult1_4.removeEventListener("click", colorChange5_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz4();
-    },500)
 }
 
 function colorChange5_3(){
@@ -682,12 +792,18 @@ function colorChange5_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+   let falseResult1_1 = document.getElementById('optTT1');
+    let falseResult1_2 = document.getElementById('optTT2');
     let falseResult1_3 = document.getElementById('optTT3');
+    let falseResult1_4 = document.getElementById('optTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange5_1);
+    falseResult1_2.removeEventListener("click", colorChange5_2);
+    falseResult1_3.removeEventListener("click", colorChange5_3);
+    falseResult1_4.removeEventListener("click", colorChange5_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz4();
-    },500)
 }
 
 function colorChange5_4(){
@@ -695,12 +811,18 @@ function colorChange5_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('optTT1');
+    let falseResult1_2 = document.getElementById('optTT2');
+    let falseResult1_3 = document.getElementById('optTT3');
     let falseResult1_4 = document.getElementById('optTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange5_1);
+    falseResult1_2.removeEventListener("click", colorChange5_2);
+    falseResult1_3.removeEventListener("click", colorChange5_3);
+    falseResult1_4.removeEventListener("click", colorChange5_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz4();
-    },500)
 }
 
 //function for quiz 6
@@ -802,21 +924,33 @@ function colorChange6_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('opTTT1');
+    let falseResult1_2 = document.getElementById('opTTT2');
+    let falseResult1_3 = document.getElementById('opTTT3');
+    let falseResult1_4 = document.getElementById('opTTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange6_1);
+    falseResult1_2.removeEventListener("click", colorChange6_2);
+    falseResult1_3.removeEventListener("click", colorChange6_3);
+    falseResult1_4.removeEventListener("click", colorChange6_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz5();
-    },500)
 }
 
 function colorChange6_2(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('opTTT1');
     let falseResult1_2 = document.getElementById('opTTT2');
+    let falseResult1_3 = document.getElementById('opTTT3');
+    let falseResult1_4 = document.getElementById('opTTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange6_1);
+    falseResult1_2.removeEventListener("click", colorChange6_2);
+    falseResult1_3.removeEventListener("click", colorChange6_3);
+    falseResult1_4.removeEventListener("click", colorChange6_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz5();
-    },500)
 }
 
 function colorChange6_3(){
@@ -824,12 +958,18 @@ function colorChange6_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opTTT1');
+    let falseResult1_2 = document.getElementById('opTTT2');
     let falseResult1_3 = document.getElementById('opTTT3');
+    let falseResult1_4 = document.getElementById('opTTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange6_1);
+    falseResult1_2.removeEventListener("click", colorChange6_2);
+    falseResult1_3.removeEventListener("click", colorChange6_3);
+    falseResult1_4.removeEventListener("click", colorChange6_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz5();
-    },500)
 }
 
 function colorChange6_4(){
@@ -837,12 +977,18 @@ function colorChange6_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opTTT1');
+    let falseResult1_2 = document.getElementById('opTTT2');
+    let falseResult1_3 = document.getElementById('opTTT3');
     let falseResult1_4 = document.getElementById('opTTT4');
+
+    falseResult1_1.removeEventListener("click", colorChange6_1);
+    falseResult1_2.removeEventListener("click", colorChange6_2);
+    falseResult1_3.removeEventListener("click", colorChange6_3);
+    falseResult1_4.removeEventListener("click", colorChange6_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz5();
-    },500)
 }
 
 //function for quiz 7
@@ -901,7 +1047,7 @@ function goToNextQuiz5(){
     let newPttT = document.createElement('p');
     timing.appendChild(newPttT);
     newPttT.id = 'COntTiming';
-    let numCount = 26;
+    let numCount = 21;
 
     function lessNum(){
         numCount--;
@@ -943,11 +1089,17 @@ function colorChange7_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('opTTTt1');
+    let falseResult1_2 = document.getElementById('opTTTt2');
+    let falseResult1_3 = document.getElementById('opTTTt3');
+    let falseResult1_4 = document.getElementById('opTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange7_1);
+    falseResult1_2.removeEventListener("click", colorChange7_2);
+    falseResult1_3.removeEventListener("click", colorChange7_3);
+    falseResult1_4.removeEventListener("click", colorChange7_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz6();
-    },500)
 }
 
 function colorChange7_2(){
@@ -955,12 +1107,18 @@ function colorChange7_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opTTTt1');
     let falseResult1_2 = document.getElementById('opTTTt2');
+    let falseResult1_3 = document.getElementById('opTTTt3');
+    let falseResult1_4 = document.getElementById('opTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange7_1);
+    falseResult1_2.removeEventListener("click", colorChange7_2);
+    falseResult1_3.removeEventListener("click", colorChange7_3);
+    falseResult1_4.removeEventListener("click", colorChange7_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz6();
-    },500)
 }
 
 function colorChange7_3(){
@@ -968,22 +1126,34 @@ function colorChange7_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('opTTTt1');
+    let falseResult1_2 = document.getElementById('opTTTt2');
     let falseResult1_3 = document.getElementById('opTTTt3');
+    let falseResult1_4 = document.getElementById('opTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange7_1);
+    falseResult1_2.removeEventListener("click", colorChange7_2);
+    falseResult1_3.removeEventListener("click", colorChange7_3);
+    falseResult1_4.removeEventListener("click", colorChange7_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz6();
-    },500)
 }
 
 function colorChange7_4(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('opTTTt1');
+    let falseResult1_2 = document.getElementById('opTTTt2');
+    let falseResult1_3 = document.getElementById('opTTTt3');
     let falseResult1_4 = document.getElementById('opTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange7_1);
+    falseResult1_2.removeEventListener("click", colorChange7_2);
+    falseResult1_3.removeEventListener("click", colorChange7_3);
+    falseResult1_4.removeEventListener("click", colorChange7_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz6();
-    },500)
 }
 
 //function for quiz 8
@@ -1083,11 +1253,17 @@ function colorChange8_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
     
     let falseResult1_1 = document.getElementById('oPTTTt1');
+    let falseResult1_2 = document.getElementById('oPTTTt2');
+    let falseResult1_3 = document.getElementById('oPTTTt3');
+    let falseResult1_4 = document.getElementById('oPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange8_1);
+    falseResult1_2.removeEventListener("click", colorChange8_2);
+    falseResult1_3.removeEventListener("click", colorChange8_3);
+    falseResult1_4.removeEventListener("click", colorChange8_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz7();
-    },500)
 }
 
 function colorChange8_2(){
@@ -1095,22 +1271,36 @@ function colorChange8_2(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    
+    let falseResult1_1 = document.getElementById('oPTTTt1');
     let falseResult1_2 = document.getElementById('oPTTTt2');
+    let falseResult1_3 = document.getElementById('oPTTTt3');
+    let falseResult1_4 = document.getElementById('oPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange8_1);
+    falseResult1_2.removeEventListener("click", colorChange8_2);
+    falseResult1_3.removeEventListener("click", colorChange8_3);
+    falseResult1_4.removeEventListener("click", colorChange8_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz7();
-    },500)
 }
 
 function colorChange8_3(){
     TotalMarks();
+    
+    let falseResult1_1 = document.getElementById('oPTTTt1');
+    let falseResult1_2 = document.getElementById('oPTTTt2');
     let falseResult1_3 = document.getElementById('oPTTTt3');
+    let falseResult1_4 = document.getElementById('oPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange8_1);
+    falseResult1_2.removeEventListener("click", colorChange8_2);
+    falseResult1_3.removeEventListener("click", colorChange8_3);
+    falseResult1_4.removeEventListener("click", colorChange8_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz7();
-    },500)
 }
 
 function colorChange8_4(){
@@ -1118,12 +1308,19 @@ function colorChange8_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    
+    let falseResult1_1 = document.getElementById('oPTTTt1');
+    let falseResult1_2 = document.getElementById('oPTTTt2');
+    let falseResult1_3 = document.getElementById('oPTTTt3');
     let falseResult1_4 = document.getElementById('oPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange8_1);
+    falseResult1_2.removeEventListener("click", colorChange8_2);
+    falseResult1_3.removeEventListener("click", colorChange8_3);
+    falseResult1_4.removeEventListener("click", colorChange8_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz7();
-    },500)
 }
 
 //function for quiz 9
@@ -1225,21 +1422,33 @@ function colorChange9_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('oPPTTTt1');
+    let falseResult1_2 = document.getElementById('oPPTTTt2');
+    let falseResult1_3 = document.getElementById('oPPTTTt3');
+    let falseResult1_4 = document.getElementById('oPPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange9_1);
+    falseResult1_2.removeEventListener("click", colorChange9_2);
+    falseResult1_3.removeEventListener("click", colorChange9_3);
+    falseResult1_4.removeEventListener("click", colorChange9_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz8();
-    },500)
 }
 
 function colorChange9_2(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('oPPTTTt1');
     let falseResult1_2 = document.getElementById('oPPTTTt2');
+    let falseResult1_3 = document.getElementById('oPPTTTt3');
+    let falseResult1_4 = document.getElementById('oPPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange9_1);
+    falseResult1_2.removeEventListener("click", colorChange9_2);
+    falseResult1_3.removeEventListener("click", colorChange9_3);
+    falseResult1_4.removeEventListener("click", colorChange9_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz8();
-    },500)
 }
 
 function colorChange9_3(){
@@ -1247,12 +1456,18 @@ function colorChange9_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('oPPTTTt1');
+    let falseResult1_2 = document.getElementById('oPPTTTt2');
     let falseResult1_3 = document.getElementById('oPPTTTt3');
+    let falseResult1_4 = document.getElementById('oPPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange9_1);
+    falseResult1_2.removeEventListener("click", colorChange9_2);
+    falseResult1_3.removeEventListener("click", colorChange9_3);
+    falseResult1_4.removeEventListener("click", colorChange9_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz8();
-    },500)
 }
 
 function colorChange9_4(){
@@ -1260,12 +1475,18 @@ function colorChange9_4(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('oPPTTTt1');
+    let falseResult1_2 = document.getElementById('oPPTTTt2');
+    let falseResult1_3 = document.getElementById('oPPTTTt3');
     let falseResult1_4 = document.getElementById('oPPTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange9_1);
+    falseResult1_2.removeEventListener("click", colorChange9_2);
+    falseResult1_3.removeEventListener("click", colorChange9_3);
+    falseResult1_4.removeEventListener("click", colorChange9_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz8();
-    },500)
 }
 //function for quiz 10
 
@@ -1363,21 +1584,33 @@ function colorChange10_1(){
     forBGcolor.style.border = '2px solid #ff1c1c';
 
     let falseResult1_1 = document.getElementById('oPpTTTt1');
+    let falseResult1_2 = document.getElementById('oPpTTTt2');
+    let falseResult1_3 = document.getElementById('oPpTTTt3');
+    let falseResult1_4 = document.getElementById('oPpTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange10_1);
+    falseResult1_2.removeEventListener("click", colorChange10_2);
+    falseResult1_3.removeEventListener("click", colorChange10_3);
+    falseResult1_4.removeEventListener("click", colorChange10_4);
+
     falseResult1_1.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_1.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz9();
-    },500)
 }
 
 function colorChange10_2(){
     TotalMarks();
+    let falseResult1_1 = document.getElementById('oPpTTTt1');
     let falseResult1_2 = document.getElementById('oPpTTTt2');
+    let falseResult1_3 = document.getElementById('oPpTTTt3');
+    let falseResult1_4 = document.getElementById('oPpTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange10_1);
+    falseResult1_2.removeEventListener("click", colorChange10_2);
+    falseResult1_3.removeEventListener("click", colorChange10_3);
+    falseResult1_4.removeEventListener("click", colorChange10_4);
+
     falseResult1_2.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_2.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz9();
-    },500)
 }
 
 function colorChange10_3(){
@@ -1385,28 +1618,37 @@ function colorChange10_3(){
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('oPpTTTt1');
+    let falseResult1_2 = document.getElementById('oPpTTTt2');
     let falseResult1_3 = document.getElementById('oPpTTTt3');
+    let falseResult1_4 = document.getElementById('oPpTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange10_1);
+    falseResult1_2.removeEventListener("click", colorChange10_2);
+    falseResult1_3.removeEventListener("click", colorChange10_3);
+    falseResult1_4.removeEventListener("click", colorChange10_4);
+
     falseResult1_3.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_3.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz9();
-    },500)
 }
-
 function colorChange10_4(){
     let forBGcolor = document.querySelector('#ALVEE3');
     forBGcolor.style.backgroundColor = 'rgb(255, 148, 148)';
     forBGcolor.style.border = '2px solid #ff1c1c';
 
+    let falseResult1_1 = document.getElementById('oPpTTTt1');
+    let falseResult1_2 = document.getElementById('oPpTTTt2');
+    let falseResult1_3 = document.getElementById('oPpTTTt3');
     let falseResult1_4 = document.getElementById('oPpTTTt4');
+
+    falseResult1_1.removeEventListener("click", colorChange10_1);
+    falseResult1_2.removeEventListener("click", colorChange10_2);
+    falseResult1_3.removeEventListener("click", colorChange10_3);
+    falseResult1_4.removeEventListener("click", colorChange10_4);
+
     falseResult1_4.style.backgroundColor = 'rgba(131, 255, 97, 0.281)';
     falseResult1_4.style.border = ' 2px solid rgb(93, 250, 93)';
-    setTimeout(function(){
-        goToNextQuiz9();
-    },300)
 }
-
-
 function TotalMarks(){
     numberCount += 1;
     document.getElementById('demo2').innerHTML = numberCount;
@@ -1417,7 +1659,6 @@ function goToNextQuiz9(){
     qusnansPage.style.display = 'none';
     resultPage.style.display = 'flex'
 }
-
 function goToHomePage(){
     window.location.href = 'index.html';
 }

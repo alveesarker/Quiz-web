@@ -58,8 +58,8 @@ button{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-button:hover{
-    background-color: #cbcbcb;
+button:active{
+    background-color: #b87d1e;
     transition: all 0.2s ease;
 }
 

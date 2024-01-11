@@ -56,8 +56,8 @@
     border-radius: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.btns button:hover{
-    background-color: #cbcbcb;
+.btns button:active{
+    background-color: #b87d1e;
     transition: all 0.2s ease;
 }
 
